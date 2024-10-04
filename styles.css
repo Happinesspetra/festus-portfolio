@@ -609,6 +609,12 @@ header .fa-bars{
     white-space: wrap;
  }
 
+ .home .btn{
+    position: relative;
+    top: 50px;
+    left: -250px;
+}
+
 .icons-container .icons h3{
     font-size: 2rem;
 }
