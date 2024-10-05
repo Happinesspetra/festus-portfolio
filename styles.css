@@ -532,10 +532,15 @@ header .fa-bars{
     background-color: var(--purple);
     color: white;
     cursor: pointer;
-    padding: 15px;
+    width: 45px;                    /* Fixed width instead of padding */
+    height: 45px;                   /* Same as width for perfect circle */
     border-radius: 50%;
     font-size: 18px;
     transition: background-color 0.3s;
+    display: flex;                  /* For centering the arrow */
+    align-items: center;            /* Vertical centering */
+    justify-content: center;        /* Horizontal centering */
+    padding: 0; 
   }
   
   .back-to-top:hover {
